@@ -1,5 +1,5 @@
 body {
-  background-color: crimson;
+  background: url(./background.png);
 }
 .container__price__0 {
   display: flex;
@@ -20,6 +20,7 @@ body {
   height: 400px;
   border: 1px solid black;
   border-radius: 5%;
+  background-color: white;
 }
 .container__1 {
   display: flex;
@@ -29,6 +30,7 @@ body {
   height: 400px;
   border: 1px solid black;
   border-radius: 5%;
+  background-color: white;
 }
 .container__2 {
   display: flex;
@@ -38,6 +40,7 @@ body {
   height: 400px;
   border: 1px solid black;
   border-radius: 5%;
+  background-color: white;
 }
 .container__3 {
   display: flex;
@@ -47,6 +50,7 @@ body {
   height: 400px;
   border: 1px solid black;
   border-radius: 5%;
+  background-color: white;
 }
 .container__4 {
   display: flex;
@@ -56,6 +60,7 @@ body {
   height: 400px;
   border: 1px solid black;
   border-radius: 5%;
+  background-color: white;
 }
 .container__5 {
   display: flex;
@@ -65,6 +70,7 @@ body {
   height: 400px;
   border: 1px solid black;
   border-radius: 5%;
+  background-color: white;
 }
 .slider {
   display: flex;
@@ -75,4 +81,5 @@ body {
   border: 1px solid black;
   margin-left: 25px;
   margin-right: 25px;
+  background-color: white;
 }
