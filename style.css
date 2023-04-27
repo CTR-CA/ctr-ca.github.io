@@ -22,6 +22,49 @@ body {
   border-radius: 5%;
   background-color: white;
 }
+.product1 {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 300px;
+}
+.product2 {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 300px;
+}
+.product3 {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 300px;
+}
+.product4 {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  height: 350px;
+}
+.product5 {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 300px;
+}
+.product6 {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 300px;
+}
+
+.container__2 {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 300px;
+}
 .container__1 {
   display: flex;
   align-items: center;
