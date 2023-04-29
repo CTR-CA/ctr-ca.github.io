@@ -72,6 +72,18 @@
   border-radius: 5%;
   background-color: white;
   margin: 25px;
+  animation-name: spin;
+  animation: spin 2s linear infinite;
+
+  animation-delay: 2.1s;
+}
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(150deg);
+  }
 }
 .container__product__2 {
   display: flex;
