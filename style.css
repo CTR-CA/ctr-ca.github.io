@@ -1,23 +1,27 @@
-body {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    25deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(233, 60, 60, 1) 27%,
-    rgba(0, 212, 255, 1) 100%
-  );
-}
 .container__price__0 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(233, 60, 60, 1) 27%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 .container__price__1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(233, 60, 60, 1) 27%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 /*PRODUCTS IMG 1,2,3,4,5,6*/
