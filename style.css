@@ -3,11 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*H2 style in the description about item*/
+.about__item {
+  text-align: center;
+}
+/*ul style list*/
+.ul__style__list {
+  font-size: 25px;
+}
+/*description of product*/
 .container__details {
   display: flex;
+  flex-direction: column;
 }
-.container__row_1 {
-  margin-top: 100px;
+/*container with product and details of it*/
+.container__row {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   display: flex;
   justify-content: center;
 }
