@@ -8,8 +8,11 @@
   text-align: center;
 }
 /*ul style list*/
-.ul__style__list {
+.container__ul__style__list {
+  display: flex;
   font-size: 25px;
+  flex-direction: column;
+  justify-content: center;
 }
 /*description of product*/
 .container__details {
