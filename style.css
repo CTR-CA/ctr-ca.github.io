@@ -17,14 +17,15 @@
   flex-direction: row;
 }
 .test___space {
-  width: 400px;
-  height: auto;
+  width: 481px;
+  height: 571px;
   background-color: lightgrey;
 }
 /*container with product and details of it*/
 .container__row {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .container__img-slider {
   display: flex;
@@ -95,4 +96,5 @@
   justify-content: space-between;
   align-items: center;
   background-color: lightgray;
+  padding: 10px;
 }
