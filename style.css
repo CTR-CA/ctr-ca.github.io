@@ -114,3 +114,7 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+.footer__phone__number {
+  color: aliceblue;
+  font-size: 40px;
+}
