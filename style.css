@@ -90,7 +90,27 @@
   border: 1px solid red;
 }
 /*footer text*/
-.footer__text {
+.footer__text__header {
   color: aliceblue;
-  font-size: 25px;
+  font-size: 50px;
+}
+.footer__text__adress {
+  color: aliceblue;
+  font-size: 35px;
+}
+.footer__text__hello {
+  color: aliceblue;
+  font-size: 40px;
+}
+.container__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__order {
+  color: aliceblue;
+  font-size: 40px;
+  background-color: red;
+  padding-left: 15px;
+  padding-right: 15px;
 }
