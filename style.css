@@ -14,13 +14,15 @@
 /*description of product*/
 .container__details {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+.test___space {
+  width: 400px;
+  height: auto;
+  background-color: lightgrey;
 }
 /*container with product and details of it*/
 .container__row {
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
   display: flex;
   justify-content: center;
 }
@@ -28,7 +30,7 @@
   display: flex;
   position: relative;
   width: 100vw;
-  height: 400px;
+  height: 570px;
 }
 .container__img-slider .container__slider-container {
   position: absolute;
@@ -93,5 +95,4 @@
   justify-content: space-between;
   align-items: center;
   background-color: lightgray;
-  padding: 15px;
 }
