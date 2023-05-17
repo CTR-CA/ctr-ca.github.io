@@ -20,15 +20,19 @@
   flex-direction: row;
 }
 .container__price__space {
+  display: flex;
   width: 481px;
   height: 571px;
   background-color: lightgrey;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ef4035;
 }
 .price__sign {
-  display: flex;
   width: 150px;
   height: 100px;
   border: 1px solid #ef4035;
+  border-radius: 10px;
   background-color: aliceblue;
 }
 /*container with product and details of it*/
@@ -100,6 +104,7 @@
 .footer__qr {
   width: 250px;
   height: 250px;
+  padding-right: 25px;
 }
 .container__footer {
   display: flex;
@@ -107,4 +112,8 @@
   align-items: center;
   background-color: lightgray;
   padding: 10px;
+  border: 1px solid black;
+}
+.footer__text {
+  padding-left: 25px;
 }
