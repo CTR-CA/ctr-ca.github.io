@@ -22,7 +22,7 @@
 .container__price__space {
   display: flex;
   width: 481px;
-  height: 571px;
+  height: 550px;
   background-color: lightgrey;
   align-items: center;
   justify-content: center;
@@ -45,7 +45,7 @@
   display: flex;
   position: relative;
   width: 100vw;
-  height: 570px;
+  height: 550px;
 }
 .container__img-slider .container__slider-container {
   position: absolute;
