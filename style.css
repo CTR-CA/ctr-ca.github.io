@@ -107,10 +107,10 @@
 }
 .container__footer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   border: 1px solid black;
   height: 400px;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .footer__img {
   width: 100%;
