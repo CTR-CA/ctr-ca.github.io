@@ -104,8 +104,6 @@
 .footer__qr {
   width: 250px;
   height: 250px;
-  padding-right: 25px;
-  position: absolute;
 }
 .container__footer {
   display: flex;
@@ -115,12 +113,16 @@
   height: 400px;
 }
 .footer__img {
-  position: relativ;
-  width: 100vh;
+  width: 100%;
   height: 400px;
-  z-index: 0;
 }
 .footer__text {
+  color: red;
   padding-left: 25px;
   position: absolute;
+}
+
+.container__img__position {
+  display: flex;
+  flex-direction: row;
 }
