@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var slideIndex = 0;
+    let slideIndex = 0;
     autoSlide();
 
     function autoSlide() {
-        var i;
-        var slides = document.getElementById("slider_testing").getElementsByClassName("slider");
+        let i;
+        let slides = document.getElementById("slider_testing").getElementsByClassName("slider");
 
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
