@@ -18,6 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         slides[slideIndex - 1].style.display = "block";
 
-        setTimeout(autoSlide, 5000); // Change slide every 2 seconds
+        setTimeout(autoSlide, 5000);
     }
 });
