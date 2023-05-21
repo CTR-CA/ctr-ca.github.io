@@ -108,17 +108,15 @@
   display: flex;
   border: 1px solid black;
   height: 400px;
-  justify-content: space-around;
-  flex-direction: row;
+
   background-color: #ef4035;
 }
 .footer__img {
-  width: 100vh;
-  height: 350px;
+  width: 100%;
+  height: 100%;
   border: 1px solid black;
 }
 .footer__text {
-  position: absolute;
   margin: 0;
   padding: 0;
 }
@@ -141,4 +139,12 @@
 .container__product__description {
   display: flex;
   align-items: center;
+  font-size: 25px;
+}
+.ctr__web__qr {
+  text-align: center;
+  font-size: 18px;
+}
+.slider {
+  background-color: lightgray;
 }
