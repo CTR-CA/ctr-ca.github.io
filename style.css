@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 .slider__body {
-  padding: 25px;
-  padding-bottom: 75px;
+  height: 525px;
 }
 .footer {
   width: 100%;
@@ -67,7 +66,7 @@
 }
 
 /*BACKGORUNDS IMGs*/
-.slider__2__img {
-  width: 421px;
-  height: 388px;
+.img__in__slider {
+  width: 520px;
+  height: 520px;
 }
