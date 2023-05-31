@@ -73,8 +73,13 @@
   }
 }
 .footer_text {
+  padding-left: 25px;
+  padding-right: 25px;
   text-align: center;
   color: white;
   width: 33%;
   font-size: 35px;
+}
+.footer_logo {
+  width: 50%;
 }
