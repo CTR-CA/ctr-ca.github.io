@@ -48,6 +48,10 @@
   z-index: 1;
   background-color: #040446;
 }
+/*rotate*/
+.for_rotate {
+  transform: rotate(30deg);
+}
 
 /*footer*/
 .container_footer {
