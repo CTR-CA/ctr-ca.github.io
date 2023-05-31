@@ -55,9 +55,16 @@
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  background: linear-gradient(-45deg, #df2929, #e73c7e, #d4152f, #f03203);
+  background: linear-gradient(
+    -45deg,
+    #423270,
+    #df2929,
+    #e73c3c,
+    #d4152f,
+    #423270
+  );
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 25s ease infinite;
   height: 43vh;
 }
 
