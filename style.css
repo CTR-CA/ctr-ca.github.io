@@ -18,17 +18,21 @@
 @keyframes img-slider {
   from {
     top: -700px;
+    opacity: 0.2;
   }
   to {
     top: 0px;
+    opacity: 1;
   }
 }
 @-webkit-keyframes img-slider {
   from {
     top: -100%;
+    opacity: 0.2;
   }
   to {
     top: 0px;
+    opacity: 1;
   }
 }
 
@@ -65,17 +69,21 @@
 @keyframes product-description {
   from {
     right: -100%;
+    opacity: 0.2;
   }
   to {
     right: 0%;
+    opacity: 1;
   }
 }
 @-webkit-keyframes product-description {
   from {
     right: -100%;
+    opacity: 0.2;
   }
   to {
     right: 0%;
+    opacity: 1;
   }
 }
 
@@ -105,17 +113,21 @@
 @keyframes price-slide {
   from {
     left: -100%;
+    opacity: 0.2;
   }
   to {
     left: 0px;
+    opacity: 1;
   }
 }
 @-webkit-keyframes price-slide {
   from {
     left: -100%;
+    opacity: 0.2;
   }
   to {
     left: 0px;
+    opacity: 1;
   }
 }
 
