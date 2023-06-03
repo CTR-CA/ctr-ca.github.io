@@ -17,10 +17,10 @@
 
 @keyframes img-slider {
   from {
-    top: -100%;
+    left: -100%;
   }
   to {
-    top: 0px;
+    left: 0px;
   }
 }
 @-webkit-keyframes img-slider {
@@ -28,7 +28,7 @@
     left: -100%;
   }
   to {
-    bottom: 0px;
+    left: 0px;
   }
 }
 
