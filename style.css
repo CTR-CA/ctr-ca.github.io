@@ -7,7 +7,19 @@
 .img__in__slider {
   padding-left: 25px;
   padding-right: 25px;
+  animation-name: img-slider;
+  animation-duration: 2s;
 }
+
+@keyframes img-slider {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 0px;
+  }
+}
+
 .slider__body {
   height: 620px;
   display: flex;
@@ -28,9 +40,19 @@
 
 .product__description {
   font-size: 100px;
-
   color: #040446;
   text-align: center;
+  position: relative;
+  animation-name: product-description;
+  animation-duration: 2s;
+}
+@keyframes product-description {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 0px;
+  }
 }
 .ctr__web__qr {
   text-align: center;
@@ -47,7 +69,21 @@
   font-size: 100px;
   z-index: 1;
   background-color: #040446;
+  animation-name: price-slide;
+  position: relative;
+
+  animation-duration: 2s;
 }
+
+@keyframes price-slide {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0px;
+  }
+}
+
 /*rotate*/
 .for_rotate {
   transform: rotate(30deg);
