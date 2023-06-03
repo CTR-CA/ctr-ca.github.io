@@ -24,11 +24,11 @@
   }
 }
 @-webkit-keyframes img-slider {
-  top {
-    left: -100%;
+  from {
+    top: -100%;
   }
   to {
-    left: 0px;
+    top: 0px;
   }
 }
 
@@ -36,6 +36,7 @@
   height: 620px;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .container__img__position {
@@ -66,15 +67,15 @@
     right: -100%;
   }
   to {
-    right: 0px;
+    right: 0%;
   }
 }
 @-webkit-keyframes product-description {
   from {
-    left: -100%;
+    right: -100%;
   }
   to {
-    left: 0px;
+    right: 0%;
   }
 }
 
