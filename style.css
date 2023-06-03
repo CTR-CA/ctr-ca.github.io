@@ -7,8 +7,12 @@
 .img__in__slider {
   padding-left: 25px;
   padding-right: 25px;
+  /*animation*/
+  position: relative;
   animation-name: img-slider;
   animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
 }
 
 @keyframes img-slider {
@@ -17,6 +21,14 @@
   }
   to {
     top: 0px;
+  }
+}
+@-webkit-keyframes img-slider {
+  top {
+    left: -100%;
+  }
+  to {
+    bottom: 0px;
   }
 }
 
@@ -42,9 +54,12 @@
   font-size: 100px;
   color: #040446;
   text-align: center;
+  /*animation*/
   position: relative;
   animation-name: product-description;
   animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
 }
 @keyframes product-description {
   from {
@@ -54,6 +69,15 @@
     right: 0px;
   }
 }
+@-webkit-keyframes product-description {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0px;
+  }
+}
+
 .ctr__web__qr {
   text-align: center;
   font-size: 20px;
@@ -69,13 +93,23 @@
   font-size: 100px;
   z-index: 1;
   background-color: #040446;
+  /*animation*/
   animation-name: price-slide;
   position: relative;
-
   animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
 }
 
 @keyframes price-slide {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0px;
+  }
+}
+@-webkit-keyframes price-slide {
   from {
     left: -100%;
   }
