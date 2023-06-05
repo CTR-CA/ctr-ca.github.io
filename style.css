@@ -15,6 +15,7 @@
   -webkit-animation-timing-function: ease-in-out;
 }
 
+/*img in*/
 @keyframes img-slider {
   from {
     top: -700px;
@@ -172,6 +173,7 @@
   text-align: center;
   color: white;
   width: 33%;
+
   font-size: 35px;
 }
 .footer_logo {
