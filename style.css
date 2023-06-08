@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 
+/*video*/
+.slider video {
+  width: 1920px;
+  height: 1080px;
+}
 .img__in__slider {
+  padding-left: 25px;
   text-align: center;
   width: 550px;
   /*animation*/

@@ -16,8 +16,17 @@ document.addEventListener("DOMContentLoaded", function () {
             slideIndex = 1;
         }
 
-        slides[slideIndex - 1].style.display = "block";
 
-        setTimeout(autoSlide, 25000);
+        if (slides[slideIndex - 1].classList.contains("video")) {
+
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(function () {
+
+                autoSlide();
+            }, 93000); // the video duration in seconds
+        } else {
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(autoSlide, 25000); // For non-video slides, continue with the default timer (25 seconds)
+        }
     }
 });
