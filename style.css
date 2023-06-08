@@ -6,6 +6,7 @@
 
 /*video*/
 .slider video {
+  overflow: hidden;
   width: 1920px;
   height: 1080px;
 }
@@ -45,7 +46,8 @@
 
 .slider__body {
   font-family: sans-serif;
-  height: auto;
+  max-height: auto;
+  min-height: 600px;
   display: flex;
   align-items: center;
   overflow: hidden;
