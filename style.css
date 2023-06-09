@@ -4,7 +4,14 @@
   box-sizing: border-box;
 }
 
+/*video*/
+.slider video {
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+}
 .img__in__slider {
+  padding-left: 25px;
   text-align: center;
   width: 550px;
   /*animation*/
@@ -39,7 +46,8 @@
 
 .slider__body {
   font-family: sans-serif;
-  height: 620px;
+  max-height: auto;
+  min-height: 600px;
   display: flex;
   align-items: center;
   overflow: hidden;
