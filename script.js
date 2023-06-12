@@ -10,23 +10,20 @@ document.addEventListener("DOMContentLoaded", function () {
             slides[i].style.display = "none";
         }
 
-        slideIndex++;
-
-        if (slideIndex > slides.length) {
-            slideIndex = 1;
+        if (slideIndex >= slides.length) {
+            slideIndex = 0;
         }
 
-
-        if (slides[slideIndex - 1].classList.contains("video")) {
-
-            slides[slideIndex - 1].style.display = "block";
+        if (slides[slideIndex].classList.contains("video")) {
+            slides[slideIndex].style.display = "block";
             setTimeout(function () {
-
                 autoSlide();
-            }, 34000); // the video duration in seconds
+            }, 40000); // Adjust the timeout to match the video duration (33 seconds)
         } else {
-            slides[slideIndex - 1].style.display = "block";
+            slides[slideIndex].style.display = "block";
             setTimeout(autoSlide, 25000); // For non-video slides, continue with the default timer (25 seconds)
         }
+
+        slideIndex++;
     }
 });
