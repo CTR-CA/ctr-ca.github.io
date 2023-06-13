@@ -101,13 +101,12 @@
   }
 }
 
-.ctr__web__qr {
-  text-align: center;
-  font-size: 20px;
+.qr {
+  width: 200px;
+  height: 200px;
 }
 
 .price {
-  text-align: center;
   color: white;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -152,10 +151,9 @@
 
 /*footer*/
 .container_footer {
+  padding: 25px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
   background: linear-gradient(
     -45deg,
     #423270,
@@ -166,7 +164,7 @@
   );
   background-size: 400% 400%;
   animation: gradient 25s ease infinite;
-  height: 43vh;
+  height: auto;
 }
 
 @keyframes gradient {
@@ -181,14 +179,11 @@
   }
 }
 .footer_text {
-  padding-left: 25px;
-  padding-right: 25px;
   text-align: center;
   color: white;
   width: 33%;
-
-  font-size: 35px;
+  font-size: 40px;
 }
 .footer_logo {
-  width: 50%;
+  width: 60%;
 }
