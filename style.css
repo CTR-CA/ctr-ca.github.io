@@ -38,6 +38,7 @@
 }
 
 .slider__body {
+  margin-top: 20px;
   font-family: sans-serif;
   height: 620px;
   display: flex;
