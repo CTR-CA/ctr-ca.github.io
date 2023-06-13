@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             slides[slideIndex].style.display = "block";
             setTimeout(function () {
                 autoSlide();
-            }, 40000); // Adjust the timeout to match the video duration (33 seconds)
+            }, 25000); // Adjust the timeout to match the video duration (33 seconds)
         } else {
             slides[slideIndex].style.display = "block";
             setTimeout(autoSlide, 25000); // For non-video slides, continue with the default timer (25 seconds)
