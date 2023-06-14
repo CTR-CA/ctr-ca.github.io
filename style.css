@@ -38,9 +38,8 @@
 }
 
 .slider__body {
-  margin-top: 30px;
   font-family: sans-serif;
-  height: 620px;
+  height: 720px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -152,7 +151,6 @@
 
 /*footer*/
 .container_footer {
-  margin-top: 100px;
   padding: 25px;
   display: flex;
   align-items: center;
