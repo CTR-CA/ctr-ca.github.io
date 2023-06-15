@@ -55,6 +55,7 @@
 }
 
 .container__slidse {
+  padding-right: 15px;
   padding-left: 15px;
   display: flex;
   align-items: center;
@@ -72,7 +73,6 @@
   border-radius: 25px;
 }
 .product__description {
-  padding-right: 15px;
   font-size: 75px;
   color: #040446;
   text-align: center;
