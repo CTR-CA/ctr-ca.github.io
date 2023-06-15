@@ -9,7 +9,7 @@
 }
 .img__in__slider {
   text-align: center;
-  width: 550px;
+  width: auto;
   /*animation*/
   position: relative;
   animation-name: img-slider;
@@ -110,6 +110,9 @@
 }
 
 .price {
+  margin: 15px;
+}
+.price_div {
   color: white;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -128,7 +131,7 @@
 
 @keyframes price-slide {
   from {
-    left: -15%;
+    left: -150%;
     opacity: 0.2;
   }
   to {
@@ -138,7 +141,7 @@
 }
 @-webkit-keyframes price-slide {
   from {
-    left: -15%;
+    left: -150%;
     opacity: 0.2;
   }
   to {
