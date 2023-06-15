@@ -59,6 +59,7 @@
   padding-left: 15px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 /*trailer_valet img sizing*/
 .trailer_valet {
