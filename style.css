@@ -43,7 +43,7 @@
 
 .slider__body {
   background-image: url(./img_products/background/wallpaper_background.jpg);
-  background-color: rgba(0, 0, 0, 0.5);
+  /*  background-color: rgba(0, 0, 0, 0.5); */
   font-family: sans-serif;
   height: 750px;
   display: flex;
