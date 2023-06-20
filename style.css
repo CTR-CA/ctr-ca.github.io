@@ -85,10 +85,15 @@
 }
 
 .product__description {
+  text-shadow: 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
+    0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
+    0 0 5px #040446;
+
   color: white;
   text-align: center;
-  font-size: 50px;
-  margin: auto;
+  font-size: 65px;
+  margin: 0px;
+  padding: 5px;
 }
 .container__product__description {
   font-size: 65px;
