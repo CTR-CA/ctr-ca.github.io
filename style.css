@@ -42,13 +42,22 @@
 }
 
 .slider__body {
-  background-image: url(./img_products/background/wallpaper_background.jpg);
-  /*  background-color: rgba(0, 0, 0, 0.5); */
   font-family: sans-serif;
   height: 750px;
   display: flex;
   align-items: center;
   overflow: hidden;
+  position: relative;
+}
+.slider__body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(./img_products/background/wallpaper_background.jpg);
+  opacity: 0.8; /* Adjust the opacity value as needed */
 }
 
 .container__img__position {
