@@ -57,7 +57,7 @@
   right: 0;
   bottom: 0;
   background-image: url(./img_products/background/wallpaper_background.jpg);
-  opacity: 0.8; /* Adjust the opacity value as needed */
+  opacity: 1; /* Adjust the opacity value as needed */
 }
 
 .container__img__position {
@@ -85,7 +85,7 @@
 }
 
 .product__description {
-  color: #040446;
+  color: white;
   text-align: center;
   font-size: 50px;
   margin: auto;
