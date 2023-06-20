@@ -138,6 +138,9 @@
 }
 
 .price {
+  text-shadow: 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
+    0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
+    0 0 5px #040446;
   margin: 0;
   margin: -200px;
   margin-top: 340px;
@@ -149,7 +152,7 @@
   height: 160px;
   font-size: 100px;
   z-index: 1;
-  background-color: #040446;
+  background-color: gray;
   /*animation*/
   animation-name: price-slide;
   position: relative;
