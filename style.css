@@ -220,8 +220,11 @@
   text-align: center;
   color: white;
   width: 33%;
-  font-size: 40px;
+  font-size: 50px;
 }
 .footer_logo {
+  text-shadow: 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
+    0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
+    0 0 5px #040446;
   width: 60%;
 }
