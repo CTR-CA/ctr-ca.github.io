@@ -8,6 +8,7 @@
   width: 75px;
 }
 .img__in__slider {
+  padding-left: 20px;
   text-align: center;
   width: auto;
   /*animation*/
@@ -21,17 +22,17 @@
 /*img in*/
 @keyframes img-slider {
   from {
-    top: -700px;
+    left: -700px;
     opacity: 0.2;
   }
   to {
-    top: 0px;
+    left: 0px;
     opacity: 1;
   }
 }
 @-webkit-keyframes img-slider {
   from {
-    top: -100%;
+    top: -700px;
     opacity: 0.2;
   }
   to {
@@ -41,6 +42,8 @@
 }
 
 .slider__body {
+  background-image: url(./img_products/background/wallpaper_background.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
   font-family: sans-serif;
   height: 750px;
   display: flex;
@@ -80,7 +83,7 @@
 }
 .container__product__description {
   font-size: 65px;
-
+  margin-left: 250px;
   /*animation*/
   position: relative;
   animation-name: product-description;
@@ -121,12 +124,13 @@
 }
 
 .price {
-  margin: 15px;
+  margin: 0;
+  margin: -200px;
+  margin-top: 340px;
 }
 .price_div {
   color: white;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
+  border-radius: 50px;
   width: auto;
   height: 160px;
   font-size: 100px;
@@ -142,21 +146,21 @@
 
 @keyframes price-slide {
   from {
-    left: -150%;
+    top: -600px;
     opacity: 0.2;
   }
   to {
-    left: 0px;
+    top: 0px;
     opacity: 1;
   }
 }
 @-webkit-keyframes price-slide {
   from {
-    left: -150%;
+    top: -700px;
     opacity: 0.2;
   }
   to {
-    left: 0px;
+    top: 0px;
     opacity: 1;
   }
 }
