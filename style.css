@@ -7,11 +7,44 @@
   height: 75px;
   width: 75px;
 }
+/*TBQ BRAND*/
+.container-tbq {
+  display: flex;
+  align-items: center;
+}
+.tbq {
+  padding-left: 130px;
+
+  width: 100%;
+  height: 100%;
+}
+
+/*TBQ LOGO*/
+.tbq_brand {
+  text-align: center;
+  width: auto;
+  position: relative;
+  animation-name: tbq-logo;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes tbq-logo {
+  from {
+    top: -700px;
+    opacity: 0.2;
+  }
+  to {
+    top: -0px;
+    opacity: 1;
+  }
+}
+
+/*img in slider*/
 .img__in__slider {
   padding-left: 20px;
   text-align: center;
   width: auto;
-  /*animation*/
   position: relative;
   animation-name: img-slider;
   animation-duration: 2s;
