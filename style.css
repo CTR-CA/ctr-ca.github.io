@@ -77,13 +77,13 @@
 
 .slider__body {
   font-family: fantasy;
-  height: 750px;
+  height: 900px;
   display: flex;
   align-items: center;
   overflow: hidden;
   position: relative;
 }
-.slider__body::before {
+/* .slider__body::before {
   content: "";
   position: absolute;
   top: 0;
@@ -91,9 +91,9 @@
   right: 0;
   bottom: 0;
   background-image: url(./img_products/background/wallpaper_background.jpg);
-  opacity: 1; /* Adjust the opacity value as needed */
+  opacity: 1;
 }
-
+ */
 .container__img__position {
   display: flex;
   flex-direction: row;
@@ -119,11 +119,11 @@
 }
 
 .product__description {
-  text-shadow: 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
+  /* text-shadow: 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
     0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
-    0 0 5px #040446;
+    0 0 5px #040446; */
 
-  color: white;
+  color: #df2929;
   text-align: center;
   font-size: 65px;
   margin: 0px;
@@ -172,9 +172,9 @@
 }
 
 .price {
-  text-shadow: 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
+  /*  text-shadow: 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
     0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
-    0 0 5px #040446;
+    0 0 5px #040446; */
   margin: 0;
   margin: -200px;
   margin-top: 340px;
@@ -260,8 +260,8 @@
   font-size: 45px;
 }
 .footer_logo {
-  text-shadow: 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
+  /* text-shadow: 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
     0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
-    0 0 5px #040446;
+    0 0 5px #040446; */
   width: 60%;
 }
