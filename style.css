@@ -200,7 +200,7 @@
 
 @keyframes price-slide {
   from {
-    top: -600px;
+    top: -1200px;
     opacity: 0.2;
   }
   to {
