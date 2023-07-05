@@ -77,7 +77,7 @@
 
 .slider__body {
   font-family: fantasy;
-  height: 900px;
+  height: 1150px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -123,7 +123,7 @@
     0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446, 0 0 5px #040446,
     0 0 5px #040446; */
 
-  color: #df2929;
+  color: black;
   text-align: center;
   font-size: 65px;
   margin: 0px;
