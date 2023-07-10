@@ -27,8 +27,11 @@ body {
   height: 100vh;
 }
 .container__product__description__grill {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   height: 100vh;
-  padding-top: 50px;
+
   padding-left: 25px;
   padding-right: 25px;
   background: black;
