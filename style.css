@@ -39,7 +39,7 @@ body {
   font-size: 200px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-span {
+.grill_span {
   text-align: center;
   display: block;
   background: url("./img_products/bbq__ctr/fire-burn.gif");
@@ -49,6 +49,11 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: fire 0.2s linear infinite;
+}
+
+.noco__img {
+  width: auto;
+  height: 500px;
 }
 /*TBQ LOGO*/
 .tbq_brand {
