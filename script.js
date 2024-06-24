@@ -18,6 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         slides[slideIndex - 1].style.display = "block";
 
-        setTimeout(autoSlide, 2500);
+        setTimeout(autoSlide, 200);
     }
 });
